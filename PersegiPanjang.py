@@ -5,3 +5,5 @@ class PersegiPanjang:
         self.panjang = panjang
         self.lebar = lebar
 
+ def keliling(self):
+        return 2 * (self.panjang + self.lebar)

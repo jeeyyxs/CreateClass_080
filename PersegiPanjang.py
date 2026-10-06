@@ -5,8 +5,11 @@ class PersegiPanjang:
         self.panjang = panjang
         self.lebar = lebar
 
- def keliling(self):
+def keliling(self):
         return 2 * (self.panjang + self.lebar)
 
- def luas(self):
+def luas(self):
         return self.panjang * self.lebar
+
+def _str_(self):
+        return f"Persegi panjang, panjang {self.panjang} cm, dan lebar {self.lebar} cm"

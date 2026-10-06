@@ -15,3 +15,4 @@ def _str_(self):
         return f"Persegi panjang, panjang {self.panjang} cm, dan lebar {self.lebar} cm"
 
 persegi_panjang = PersegiPanjang(3, 2)
+print(persegi_panjang)

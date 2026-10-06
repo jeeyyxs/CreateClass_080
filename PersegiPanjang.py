@@ -16,3 +16,5 @@ def _str_(self):
 
 persegi_panjang = PersegiPanjang(3, 2)
 print(persegi_panjang)
+print("Keliling:", persegi_panjang.keliling(), "cm")
+print("Luas:", persegi_panjang.luas(), "cm²")
